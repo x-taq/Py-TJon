@@ -40,12 +40,15 @@ class Login_UI(QDialog, Login):
         _app = QApplication.instance()
         _app.installTranslator(self.translator)
         self.retranslateUi(self)
-	
         self.groupBox.move((self.size().width()-self.groupBox.size().width())/2,(self.size().height()-self.groupBox.size().height())/2)
         self.showMaximized()#max show
+        
     def resizeEvent(self, evt):
         #info = 'w = {0}; h = {1}'.format(evt.size().width(),evt.size().height())
         self.groupBox.move((evt.size().width()-self.groupBox.size().width())/2,(evt.size().height()-self.groupBox.size().height())/2)
+
+    def test(self):
+        pass    
 
 
 if __name__ == "__main__":
