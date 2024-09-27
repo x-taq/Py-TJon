@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="img">
+    <file>Icon/Edit.png</file>
+    <file>Icon/Exit.png</file>
+    <file>Icon/Run.png</file>
+    <file>Icon/Set.png</file>
+  </qresource>
+  <qresource prefix="login">
+    <file>Icon/Pass.png</file>
+    <file>Icon/User.png</file>
+  </qresource>
+</RCC>
